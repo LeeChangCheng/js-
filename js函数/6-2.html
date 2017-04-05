@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>
+        当您声明函数时，请把参数作为变量来声明：
+        function myFunction(var1,var2)
+        {
+        这里是要执行的代码
+        }
+        变量和参数必须以一致的顺序出现。第一个变量就是第一个被传递的参数的给定的值，以此类推。
+    </p>
+<button onclick="myFunction('lcc','ceo')">点击就送大宝剑</button>
+<button onclick="myFunction('Bob','laji')">点击这里</button>
+<script>
+    function myFunction(name,job) {
+        alert("Welcome "+name+", the "+job);
+    }
+</script>
+</body>
+</html>
